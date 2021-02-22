@@ -40,7 +40,7 @@ export const Separador = styled.div`
   opacity: 0.2;
 `;
 
-export const Description = styled.div`
+export const Description = styled.span`
   font-size: 15px;
 
   color: ${({ theme }) => theme.colors.text.gray};
