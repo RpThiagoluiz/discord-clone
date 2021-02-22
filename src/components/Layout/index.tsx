@@ -4,6 +4,7 @@ import ServerName from "../ServerName";
 import ChannelInfo from "../ChannelInfo";
 import ChannelList from "../ChannelList";
 import UserInfo from "../UserInfo";
+import ChannelData from "../ChannelData";
 import UserList from "../UserList";
 //Styles
 import { Grid } from "./styles";
@@ -16,6 +17,7 @@ const Layout = () => {
       <ChannelInfo />
       <ChannelList />
       <UserInfo />
+      <ChannelData />
       <UserList />
     </Grid>
   );

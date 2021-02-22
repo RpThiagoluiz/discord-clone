@@ -1,10 +1,13 @@
-import { Container, Title, ExpandIcon } from "./styles";
+import { Container, Messages, InputWrapper, Input, InputIcon } from "./styles";
 
-const ServerName = () => (
+const ChannelData = () => (
   <Container>
-    <Title>Anonimous Server</Title>
-    <ExpandIcon />
+    <Messages />
+    <InputWrapper>
+      <Input type="text" placeholder="Talk here... # free-chat" />
+      <InputIcon />
+    </InputWrapper>
   </Container>
 );
 
-export default ServerName;
+export default ChannelData;

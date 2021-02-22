@@ -1,31 +1,73 @@
 import styled from "styled-components";
 
-//Icon
-import { ExpandMore } from "styled-icons/material";
+//Icons
+import { AlternateEmail } from "styled-icons/material";
 
 export const Container = styled.section`
+  grid-area: CD;
+
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
 
-  padding: 0 11px 0 16px;
-
-  box-shadow: ${({ theme }) => theme.colors.components.shadow} 0px 1px 0px 0px;
-  z-index: 2;
-
-  background-color: ${({ theme }) => theme.colors.components.secondary};
+  background-color: ${({ theme }) => theme.colors.components.primary};
 `;
 
-export const Title = styled.h1`
-  font-size: 16px;
-  font-weight: bold;
+export const Messages = styled.section`
+  padding: 20px 0;
 
-  color: ${({ theme }) => theme.colors.text.white};
+  display: flex;
+  flex-direction: column;
+
+  max-height: calc(100vh - 46px - 68px);
+
+  overflow-y: scroll;
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.colors.components.tertiary};
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: ${({ theme }) => theme.colors.components.secondary};
+  }
 `;
 
-export const ExpandIcon = styled(ExpandMore)`
-  width: 28px;
-  height: 28px;
+export const InputWrapper = styled.section`
+  width: 100%;
+
+  padding: 0 16px;
+`;
+
+export const Input = styled.input`
+  width: 100%;
+  height: 44px;
+
+  padding: 0 10px 0 57px;
+  border-radius: 7px;
 
   color: ${({ theme }) => theme.colors.text.white};
+  background-color: ${({ theme }) => theme.colors.alert.chatInput};
+
+  &::placeholder {
+    color: ${({ theme }) => theme.colors.text.gray};
+  }
+
+  ~ svg {
+    position: relative;
+    top: -50%;
+    left: 14px;
+
+    transition: 180ms ease-in-out;
+  }
+`;
+
+export const InputIcon = styled(AlternateEmail)`
+  width: 24px;
+  height: 24px;
+
+  color: ${({ theme }) => theme.colors.text.gray};
 `;
