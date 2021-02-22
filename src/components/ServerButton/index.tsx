@@ -16,17 +16,15 @@ const ServerButton = ({
   isHome,
   hasNotifications,
   mentions,
-}: ButtonProps) => {
-  return (
-    <Button
-      isHome={isHome}
-      hasNotifications={hasNotifications}
-      mentions={mentions}
-      className={selected ? "active" : ""}
-    >
-      {isHome && <img src={logo} alt="logo" />}
-    </Button>
-  );
-};
+}: ButtonProps) => (
+  <Button
+    isHome={isHome}
+    hasNotifications={hasNotifications}
+    mentions={mentions}
+    className={selected ? "active" : ""}
+  >
+    {isHome && <img src={logo} alt="logo" />}
+  </Button>
+);
 
 export default ServerButton;

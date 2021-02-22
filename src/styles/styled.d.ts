@@ -12,6 +12,7 @@ declare module "styled-components" {
         quaternary: string;
         quinary: string;
         senary: string;
+        shadow: string;
       };
 
       text: {

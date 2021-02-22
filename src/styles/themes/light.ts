@@ -9,6 +9,7 @@ export default {
       quaternary: "#292b2f",
       quinary: "#393d42",
       senary: "#828386",
+      shadow: "rgba(0,0,0, 0.4)",
     },
 
     text: {
