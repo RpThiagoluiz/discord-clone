@@ -23,7 +23,7 @@ export const Messages = styled.section`
 
   overflow-y: scroll;
   ::-webkit-scrollbar {
-    width: 4px;
+    width: 8px;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -46,6 +46,8 @@ export const Input = styled.input`
   width: 100%;
   height: 44px;
 
+  position: relative;
+
   padding: 0 10px 0 57px;
   border-radius: 7px;
 
@@ -58,8 +60,8 @@ export const Input = styled.input`
 
   ~ svg {
     position: relative;
-    top: -50%;
-    left: 14px;
+    bottom: 30px;
+    left: 15px;
 
     transition: 180ms ease-in-out;
   }
@@ -70,4 +72,12 @@ export const InputIcon = styled(AlternateEmail)`
   height: 24px;
 
   color: ${({ theme }) => theme.colors.text.gray};
+`;
+
+export const Mention = styled.span`
+  color: ${({ theme }) => theme.colors.alert.link};
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;
