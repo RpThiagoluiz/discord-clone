@@ -1,10 +1,10 @@
 import { Container, Title, ExpandIcon } from "./styles";
 
-const ChannelButton = () => (
+const ServerName = () => (
   <Container>
     <Title>Anonimous Server</Title>
     <ExpandIcon />
   </Container>
 );
 
-export default ChannelButton;
+export default ServerName;
