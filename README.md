@@ -1,8 +1,51 @@
-Semantic Git Commit
-Semanti HTML 5
+# Clone Interface - Discord
 
-Style Icons
+_pt-br_,
 
-https://hungry-golick-8dbab8.netlify.app/
+Olá, realizei este clone durante uma aula da RocketSeat. Adaptei para uma escrita mais atual, incrementei alguns estilos nele para melhorar minhas habilidades.
+O link da app esta [Netfly](http://localhost:3000) ou você pode instalar ele localmente seguindo os passos.
 
-switch theme.
+**Install**
+
+### `yarn install` ou `npm`
+
+Para instalar todas as dependencias do projeto.
+
+### `yarn start` ou `npm`
+
+Rodar o projeto, em [http://localhost:3000](http://localhost:3000).
+
+**Foram Utilizados**
+
+- Semantic Git Commits,
+- Semantic Html,
+- Styled Icons,
+- TypeScript,
+- ReactSwitch,
+
+_en-us_,
+
+Hi, I made this clone during a RocketSeat class. I adapted to a more current writing, I increased some styles in it to improve my skills.
+The app link is [Netfly] (http: // localhost: 3000) or you can install it locally by following the steps.
+
+** Install **
+
+### `yarn install` or `npm`
+
+To install all the dependencies of the project.
+
+### `yarn start` or `npm`
+
+Run the project, at [http: // localhost: 3000] (http: // localhost: 3000).
+
+**Were used**
+
+- Semantic Git Commits,
+- Semantic Html,
+- Styled Icons,
+- TypeScript,
+- ReactSwitch,
+
+## Node version
+
+v14.15.4
