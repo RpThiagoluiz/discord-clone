@@ -6,11 +6,11 @@ import { IThemeProps, IThemeContext, ThemeContext } from "./ThemeContext";
 import dark from "../../styles/themes/dark";
 import light from "../../styles/themes/light";
 
-interface AuxProps {
+interface Props {
   children: React.ReactNode;
 }
 
-const ThemeProvider = ({ children }: AuxProps) => {
+const ThemeProvider = ({ children }: Props) => {
   const [theme, setTheme] = useState<IThemeProps>(() => {
     const themeSaved = localStorage.getItem(
       "@clonediscord-devthiago-2021ASD@#$$ADFDU$%@"
