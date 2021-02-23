@@ -3,7 +3,7 @@
 _pt-br_,
 
 Olá, realizei este clone durante uma aula da RocketSeat. Adaptei para uma escrita mais atual, incrementei alguns estilos nele para melhorar minhas habilidades.
-O link da app esta [Netfly](http://localhost:3000) ou você pode instalar ele localmente seguindo os passos.
+O link da app esta [Netfly](https://reactclone-discordinterface.netlify.app/) ou você pode instalar ele localmente seguindo os passos.
 
 **Install**
 
@@ -26,7 +26,7 @@ Rodar o projeto, em [http://localhost:3000](http://localhost:3000).
 _en-us_,
 
 Hi, I made this clone during a RocketSeat class. I adapted to a more current writing, I increased some styles in it to improve my skills.
-The app link is [Netfly] (http: // localhost: 3000) or you can install it locally by following the steps.
+The app link is [Netlify] (http: // localhost: 3000) or you can install it locally by following the steps.
 
 ** Install **
 
