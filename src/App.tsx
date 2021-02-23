@@ -6,12 +6,13 @@ import { ThemeProvider } from "styled-components";
 //Components
 import Layout from "./components/Layout";
 
-//Darktheme
-import dark from "./styles/themes/dark";
+//hook
+import { useTheme } from "./hooks/theme/ThemeProvider";
 
 const App = () => {
+  const { theme } = useTheme();
   return (
-    <ThemeProvider theme={dark}>
+    <ThemeProvider theme={theme}>
       <Layout />
       <GlobalStyles />
     </ThemeProvider>

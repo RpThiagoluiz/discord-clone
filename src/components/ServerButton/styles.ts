@@ -21,6 +21,7 @@ export const Button = styled.button<ButtonProps>`
   margin-bottom: 8px;
 
   border-radius: 50%;
+  border: 2px solid ${({ theme }) => theme.colors.components.shadow};
 
   opacity: 0.8;
   transition: all 0.2s ease-in-out;

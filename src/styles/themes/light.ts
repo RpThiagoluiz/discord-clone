@@ -3,12 +3,12 @@ export default {
 
   colors: {
     components: {
-      primary: "#36393f",
-      secondary: "#2f3136",
-      tertiary: "rgb(32,34,37)",
-      quaternary: "#292b2f",
-      quinary: "#393d42",
-      senary: "#828386",
+      primary: "#f6f3f2",
+      secondary: "#edeeef",
+      tertiary: "#f8f8f8",
+      quaternary: "#f6f3f2",
+      quinary: "#f7fcfe",
+      senary: "#36393f",
       shadow: "rgba(0,0,0, 0.4)",
     },
 
@@ -18,8 +18,8 @@ export default {
       black: "#fff",
     },
     alert: {
-      chatInput: "rgb(64,68,75)",
-      symbol: "#74777a",
+      chatInput: "#d3d3d3",
+      symbol: "#000",
       notification: "#000",
       discord: "#6e86d6",
       link: "#5d80d6",
@@ -27,7 +27,7 @@ export default {
     mentions: {
       color: "#f84a4b",
       detail: "#f9a839",
-      message: "#413f3f",
+      message: "#d3d3d3",
     },
     homeSelect: "#FFA833",
   },

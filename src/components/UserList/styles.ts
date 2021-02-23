@@ -94,7 +94,6 @@ export const Avatar = styled.div`
 
   border-radius: 50px;
 
-  background: url(${anonymousAvatar});
   background-color: ${({ theme }) => theme.colors.components.primary};
 
   &.bot {
